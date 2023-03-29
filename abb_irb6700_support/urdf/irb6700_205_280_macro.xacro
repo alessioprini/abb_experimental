@@ -69,7 +69,7 @@
     </link>
     <link name="${prefix}link_2">
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 0" />
+        <origin xyz="0.0 0 0" rpy="0 0 0" />
         <geometry>
           <mesh filename="package://abb_irb6700_support/meshes/irb6700_205_280/visual/link_2.stl" />
         </geometry>
