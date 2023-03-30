@@ -34,6 +34,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="319.02" />
+        <origin xyz="0.16 0.02 -0.16" rpy="0 0 0"/>
+        <inertia ixx="15.99"  ixy="2.57"  ixz="6.95" iyy="25.28" iyz="0.86" izz="21.71"/>
+      </inertial>
     </link>
     <link name="${prefix}cylinder">
       <visual>
@@ -82,6 +87,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="337.83" />
+        <origin xyz="0.04 -0.27 0.61" rpy="0 0 0"/>
+        <inertia ixx="42.70"  ixy="-0.02"  ixz="-1.37" iyy="44.07" iyz="-3.80" izz="4.67"/>
+      </inertial>
     </link>
     <link name="${prefix}link_3">
       <visual>
@@ -98,6 +108,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="252.97" />
+        <origin xyz="-0.06 -0.0 0.13" rpy="0 0 0"/>
+        <inertia ixx=" 10.51"  ixy="-1.59"  ixz="-1.12" iyy="8.07" iyz="1.89" izz="10.99"/>
+      </inertial>
     </link>
     <link name="${prefix}link_4">
       <visual>
@@ -114,6 +129,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="271.07" />
+        <origin xyz="0.66 -0.01 0.0" rpy="0 0 0"/>
+        <inertia ixx=" 3.41"  ixy="-1.37"  ixz="0" iyy="46.90" iyz="0.0" izz="48.53"/>
+      </inertial>
     </link>
     <link name="${prefix}link_5">
       <visual>
@@ -130,6 +150,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="34.31" />
+        <origin xyz="0.02 0.0 0.0" rpy="0 0 0"/>
+        <inertia ixx="0.14"  ixy="-0.01"  ixz="-0.01" iyy="0.34" iyz="0.0" izz="0.36"/>
+      </inertial>
     </link>
     <link name="${prefix}link_6">
       <visual>
@@ -146,6 +171,11 @@
         </geometry>
         <xacro:material_abb_yellow/>
       </collision>
+      <inertial>
+        <mass value="3.57" />
+        <origin xyz="-0.02 0.0 0.0" rpy="0 0 0"/>
+        <inertia ixx="0.02"  ixy="-0.00"  ixz="-0.00" iyy="0.01" iyz="0.0" izz="0.01"/>
+      </inertial>
     </link>
 
     <joint name="${prefix}joint_1" type="revolute">
